@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Interactive World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scene-container">
+        <div id="hotspot-container">
+            <div class="hotspot" data-zoom="zone1" style="top: 20%; left: 30%;"></div>
+            <div class="hotspot" data-zoom="zone2" style="top: 60%; left: 70%;"></div>
+        </div>
+        <div id="zoom-content" class="hidden">
+            <button id="close-zoom">Close</button>
+            <div id="zoom-text"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.134.0/examples/js/loaders/RGBELoader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
